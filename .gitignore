@@ -1,2 +1,5 @@
 # ignoring virtual environment directory
 /venv
+
+# ignoring database file
+db.sqlite3
