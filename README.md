@@ -1,10 +1,14 @@
 
-# preparing steps : 
+# preparing steps
 
+* pip install requests
+* pip install django
+* pip install djangorestframework
 
 * django-admin startproject musiccontroller
 * django-admin startapp api
 * django-admin startapp frontend
+* python startapp spotify
 
 * mkdir frontend/src
 * mkdir frontend/src/components
@@ -24,6 +28,7 @@
 * npm install @babel/plugin-proposal-class-properties
 * npm install react-router-dom
 * npm install @material-ui/icons
+* npm install @material-ui/lab
 
 * touch frontend/babel.config.json
 * touch frontend/webpack.config.js
@@ -32,3 +37,7 @@
 * touch frontend/templates/frontend/index.html
 
 * touch frontend/static/css/index.css
+
+* touch spotify/urls.py
+* touch spotify/credentials.py
+* touch spotify/util.py

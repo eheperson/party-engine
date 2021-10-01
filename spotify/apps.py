@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class RestapiConfig(AppConfig):
+class SpotifyConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'restApi'
+    name = 'spotify'
