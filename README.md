@@ -41,3 +41,33 @@
 * touch spotify/urls.py
 * touch spotify/credentials.py
 * touch spotify/util.py
+
+
+## ***** readme page will be updated *****
+
+## To run project :
+
+* install the python requirements : 
+
+
+        pip install -r requirements.txt
+
+* run the django web server :
+
+        python manage.py runserver
+
+
+* install and run node.js :
+
+
+        #change dir to music-controller/frontend
+        cd frontend 
+
+        # install all dependicies.
+        npm i
+
+        # to run the production compile script
+        npm run build
+
+        # or run development :
+        node run dev

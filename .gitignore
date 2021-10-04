@@ -3,3 +3,9 @@
 
 # ignoring database file
 db.sqlite3
+
+
+.node
+node_modules/
+__pycache__/
+**/node_modules
